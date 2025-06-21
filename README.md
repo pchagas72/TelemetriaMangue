@@ -5,4 +5,5 @@ Um programa da equipe Mangue-Baja que recebe dados em tempo real de nossos servi
 ## TODO:
 
 - Wrapper para android.
-- Implementar documentação
+- Implementar documentação.
+- Adicionar debugger
