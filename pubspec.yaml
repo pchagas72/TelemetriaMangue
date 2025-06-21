@@ -33,13 +33,13 @@ dependencies:
   google_fonts: 6.2.1 
   #embedded_serialport: 1.5.5(incompativel com windows)
   #flutter_libserialport: ^0.4.0
-  syncfusion_flutter_gauges: ^20.4.48
-  flutter_libserialport: 0.4.0
+  syncfusion_flutter_gauges: ^29.2.11
+  #flutter_libserialport: ^0.5.0
   ffi: ^2.0.1
   
 
   
-  #flutter_libserialport: ^1.0.0
+  flutter_libserialport: ^0.5.0
   #flutter_bluetooth_serial: 0.4.0
   #flutter_blue: ^0.8.0
   #flutter_blue_plus_windows: ^1.0.0
@@ -51,10 +51,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  flutter_bloc: ^8.1.4
+  flutter_bloc: ^9.1.1
   url_launcher: ^6.2.5
-  fl_chart: ^0.66.2
-  bloc: ^8.1.3
+  fl_chart: ^0.66.0
+  bloc: ^9.0.0
   http: ^1.2.1
   google_maps_flutter: ^2.6.0
   csv: ^6.0.0
@@ -78,7 +78,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
