@@ -4,11 +4,13 @@ Um programa da equipe Mangue-Baja que recebe dados em tempo real de nossos servi
 
 ## Sobre quick fixes e avisos
 
-O código pode muito bem quebrar apenas por movê-lo dentro do seu sistema, portanto, boas práticas são:
+O código pode muito bem quebrar apenas por movê-lo dentro do seu sistema, não por incompetência dos programadores, mas sim pela natureza do framework (do flutter).
+
+Portanto, boas práticas são:
 
 - Executar _flutter clean_ e _flutter doctor_ sempre que for executar, compilar ou editar o código.
-- Boas práticas com git, clonar e fazer o pull requests necessários. Não bagunçar os arquivos.
-- Boas práticas com Dart, afinal, warnings podem se tornar erros.
+- Boas práticas com git, clonar e fazer os pull requests necessários. Não bagunçar os arquivos.
+- Boas práticas com Dart, afinal, warnings podem se tornar erros, e <a href="https://github.com/AigoLuna/MangueWIN-main-main">de fato se tornaram</a> ao passar a versão antiga para esta.
 
 ## Sobre as dependências
 
@@ -23,7 +25,7 @@ Sobre as versões essenciais:
 
 Esta lista está em ordem de _prioridade_.
 
-- Wrapper para android.
+- Substituir bibliotecas relacionadas à <a href="https://pub.dev/packages/flutter_libserialport">leitura de serial</a>.
 - Adicionar debugger.
 - Implementar documentação.
 - Atualizar código para adaptar-se à versões mais recentes das bibliotecas.
